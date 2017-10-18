@@ -1,0 +1,45 @@
+/* Main CSS file */
+
+/***** universial *****/
+
+* {
+    box-sizing: border-box;
+}
+
+.brand {
+    font-family: 'Enriqueta', serif;
+    font-size: 2rem
+}
+
+.mainImage {
+    width: 100%;
+    margin: 25px auto;
+}
+
+
+
+/**********  Footer  **********/
+
+footer {
+    text-align: center;
+    margin: auto;
+}
+
+/**********  Media  **********/
+
+@media (min-width: 720px) {
+
+    .mainImage {
+        display: flex;
+        align-self: center;
+        width: 50%;
+        margin: 25px auto;
+    }
+
+    .jumbotron p {
+        margin: 20px 30px;
+    }
+
+}
+
+@media (min-width: 850px) {}
