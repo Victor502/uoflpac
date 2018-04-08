@@ -16,13 +16,34 @@
     margin: 25px auto;
 }
 
+.donate {
+    font-size: 1.25rem;
+}
 
+.signuptohelp {
+    margin-bottom: 25px;
+}
+
+.uofl {
+    color:#f11616;
+}
 
 /**********  Footer  **********/
 
 footer {
     text-align: center;
     margin: auto;
+    background-color: #f11616;
+    height: 45px;
+}
+
+footer a {
+    list-style: none;
+    color: black;
+}
+
+footer a:hover {
+    color: white;
 }
 
 /**********  Media  **********/
