@@ -51,3 +51,16 @@
   </div>
   <button type="submit" class="btn btn-primary">Sign Up</button>
 </form>
+
+modal autoload
+option #1
+setTimeout(function() {
+    $('#myModal').modal();
+}, 2000);
+
+option #2
+$(window).load(function(){
+   setTimeout(function(){
+       $('#myModal').modal('show');
+   }, 2000);
+});
